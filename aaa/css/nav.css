@@ -1,0 +1,96 @@
+﻿@charset "utf-8";
+/* CSS Document */ 
+
+*{margin:0; padding:0; text-decoration:none; list-style:none; font-size:12px; font-family:"微软雅黑"}
+.fl{clear:both; height:0; font-size:0; line-height:0;}
+img{border:0;}  
+body{ background:#ffecce;}
+
+h2{ color:#FFF; font-size:30px; font-weight:bold;}
+h3{ font-size:18px; font-weight:bold; color:#FFF;}
+h4{ font-size:20px; font-weight:bold; padding-left:20px;}
+h5{ font-size:30px; font-weight:bold;}
+
+div#MainPromotionBanner{width:1000px; height:480px;}
+#MainPromotionBanner #SlidePlayer {}
+#MainPromotionBanner .Slides{padding: 0;margin: 0;list-style: none;height:480px;overflow: hidden;}
+#MainPromotionBanner .Slides li {float: left;width:1000px;height:480px;}
+#MainPromotionBanner .Slides img{border:0;display: block;width:1000px;height:480px;}
+#MainPromotionBanner .SlideTriggers{margin: 0;padding: 0;list-style: none;position: absolute; margin-top:-30px; margin-left:900px;z-index: 10;height: 27px; width:144px; padding-top:3px;}
+#MainPromotionBanner .SlideTriggers li{float: left;	display: inline;color: #084ca7;text-align: center;line-height:18px;width: 18px;	height: 18px;font-family: Arial;font-size: .9em;cursor: pointer;overflow: hidden; margin:3px 6px;background:#fff; border:1px solid #c9c9c9;}
+#MainPromotionBanner .SlideTriggers li.Current{color:#fff; background:#084ca7;	border:0; font-weight:bold;}
+
+.text p{ padding-right:20px; line-height:25px; text-indent:30px; font-size:14px; margin-top:8px;}
+.text1 p{ padding-left:20px; padding-right:20px; line-height:27px; text-indent:30px; font-size:14px; margin-top:8px;}
+.text1 img{ padding-top:20px; padding-left:20px; padding-bottom:20px;}
+.text1{ padding-bottom:20px;}
+
+.menu li{padding: 5px 15px 0 10px;height:34px; line-height:34px;color: #fff;  text-align:left; float:left;}
+.menu li a{ font-size:18px; color:#fff;}
+.menu li a:hover{ color: #00aeff;}
+.menu li.active a{color: #00aeff;}
+
+.logo{margin-left: 10px;}
+
+.biaodan tr td{ font-size:14px; font-family:"微软雅黑";}
+.biaodan tr td .b{ width:240px; height:30px; border:1px solid #CCC; padding-left:5px;}
+textarea{ width:400px; padding:5px; height:150px;}
+h3 a{ font-size:14px; color:#09F}
+
+.f_link h3{text-align: left;font-size: 20px;margin-bottom: 10px;}
+.f_link p{text-align: left;line-height: 25px;}
+.f_link p a{font-size: 16px;margin-top: 10px;color: #fff;}
+
+.f_footer{}
+
+.news{width: 1000px;margin: 0 auto;background: #fff;}
+.news img{width: 230px;margin: 10px;}
+.news img:hover{opacity: 0.85;}
+.news h3{color: #333;width: 230px;margin:0px 10px;font-size: 14px;margin-bottom: 30px;}
+
+.pic{width: 1000px;margin: 0 auto;background: #fff;}
+.pic a .img{width: 310px;margin: 10px;overflow: hidden;}
+.pic img{transition: all 0.1s;width: 310px;}
+.pic img:hover{transform: scale(1.1);}
+.pic h3{color: #333;width: 310px;margin:0px 10px;font-size: 14px;margin-bottom: 30px;}
+
+.history{background: transparent;}
+.history a .img{margin: 0px 10px;}
+.history h3{background: #fff;color: #000;text-align: center;font-size: 20px;height: 35px;line-height: 35px;}
+
+.team{width: 1000px;margin: 0 auto;background: #fff;}
+.team .bg_blue{background: #0f6db4;height: 50px;}
+.team .team_tit1{font-size: 15px;margin: 0px;display: block;line-height: 30px;font-size: 25px;}
+.team_tit1{color: #fff; background-size: 30px 30px;height: 30px; padding-left: 50px;}
+.team .bg_grey{background: #ccc;height: 30px;}
+.team .bg_grey td h5{font-size: 13px;line-height: 30px;padding-left: 20px;}
+.team .team_i1{padding-left: 100px;}
+.team .team_i1 .over{overflow: hidden;margin: 10px;}
+.team .team_i1 .over span{float: left;margin-right: 20px;}
+.team .team_i1 .s1{font-size: 22px;line-height: 35px;}
+.team .team_i1 .s2{font-size: 18px;line-height: 20px;}
+.team .team_i11{ background: url("../images/team_i1.svg") left center no-repeat;background-size: 80px 80px;}
+.team .team_i12{ background: url("../images/team_i2.svg") left center no-repeat;background-size: 80px 80px;}
+.team .team_i13{ background: url("../images/team_i3.svg") left center no-repeat;background-size: 80px 80px;}
+.team .team_i21{ background: url("../images/team_i21.svg") left center no-repeat;background-size: 80px 80px;}
+.team .team_i22{ background: url("../images/team_i22.svg") left center no-repeat;background-size: 80px 80px;}
+.team .team_i23{ background: url("../images/team_i23.svg") left center no-repeat;background-size: 80px 80px;}
+
+.first tr td{border-bottom: 1px solid #eee;height: 40px;}
+.first tr td:first-child{padding-left: 20px;}
+
+
+.info{width: 1000px;margin: 0 auto;background: #fff;padding-bottom: 50px;}
+.info h2{font-size: 25px;text-align: center;line-height: 80px;color: #333;}
+.info img{width: 80%;margin: 0 auto;display: block;}
+.info p{line-height: 30px;font-size: 17px;width: 90%;margin: 0 auto;text-indent: 35px;}
+.info p:first-child{margin-top: 50px;}
+
+.info tr td a{display: block;color: #1796f1;font-size: 15px;margin: 10px;}
+
+.form{width: 800px;margin: 0 auto;}
+.form span{text-align: right;font-size: 18px;display: block;padding-right: 20px;}
+.form input{padding: 8px 20px;margin-bottom: 10px;}
+.form button{outline: none;cursor: pointer; padding: 8px 20px;border: 1px solid #ccc;background: #fff;text-align: center;font-size: 16px;margin-top: 20px;}
+
+.more{width: 98%;background: #f1f1f1;text-align: center;color: #00a2d4;display: block;font-size: 14px;line-height: 30px;margin: 20px auto;}
